@@ -1,0 +1,85 @@
+body {
+  color: #99AAB5;
+  font-family: sans-serif;
+
+}
+
+#tableau {
+  margin: 0 11%;
+  display: flex;
+}
+
+.tableau-first-col {
+  color: rgb(153, 170, 181);
+}
+
+.tableau-first-col .tableau-cell {
+  padding-right: 60px;
+}
+
+.tableau-cell {
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+  border-bottom: 1px solid rgb(231, 233, 234);
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+#tableau .col-header {
+  height: 80px;
+}
+
+.tableau-second-col {
+  border: 4px solid #7289DA;
+  border-radius: 5px;
+  position: relative;
+  top: -4px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+}
+
+.tableau-discord-logo {
+  background: url("https://discordapp.com/assets/f9e3796cfdddad01e538402612c09790.png"), #7289DA;
+  width: 240px;
+  margin-bottom: 10px;
+}
+
+
+
+.tableau-ventrilo-logo {
+  background: url("https://discordapp.com/assets/f1008235ea09ae85fbbdd75fe7fccf56.png");
+  width: 180px;
+}
+
+.tableau-teamspeak-logo {
+  background: url("https://discordapp.com/assets/51396ff61ea30134b08ae1c8667259af.png");
+  width: 180px;
+}
+
+.tableau-skype-logo {
+  background: url("https://discordapp.com/assets/5e1124dd5f2767064ca48e9225dc22ec.png");
+  width: 130px;
+}
+
+.tableau-logo {
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80px;
+
+}
+
+
+.tableau-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableau-check {
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAjUlEQVR4Ae3N1QHDIAAEUMbqX5mp7lC3AbNN3fVwzeH6SJkyuqlvi4oPtHNs+9PoA907w49I9w29NeoDXdpEe9mg/R/oInz0+KAqcXfwA53Louz6kPlA9wg/ng1/oDNZlN4eI/y4N0KoLM5/4xCdQkAVt4ZCHKAu8YkGAXDXKMDHVjCA20EBzkmZMjHkAK/xt8XTLIzAAAAAAElFTkSuQmCC");
+  height: 40px;
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
