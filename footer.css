@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+footer {
+    background: url("https://discordapp.com/assets/530280c4e76a27a6dd43c0ecabb96e7d.png");
+    padding: 50px 80px;
+}
+
+.footer-apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(219, 221, 225, 0.1);
+}
+
+.footer-btn {
+    color: #fff;
+    background-color: #3cac79;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    padding: 13px 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.footer-btn:hover {
+   background-color: #3d9c71;
+}
+
+.footer-devices {
+    height: 200px;
+    width: 80%;
+    background: url("https://discordapp.com/assets/488cb1e29a13336481369363cb861f02.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer-index {
+   display: flex;
+   margin-top: 40px;
+   padding: 0 50px;
+}
+
+.footer-discord-logo img {
+    width: 130px;
+    margin-right: 150px;
+}
+
+.footer-index ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   width: 250px;
+}
+
+.footer-index a {
+   color: rgba(219, 221, 225, 0.4);
+   font-size: 0.85rem;
+   text-decoration: none;
+   transition: 0.2s;
+}
+.footer-index a:hover {
+   color: #fff;
+}
+
+.footer-index li:not(:first-of-type) {
+   margin: 10px 0;
+}
+
+
+
+footer strong {
+   color: #3ca374;
+}
