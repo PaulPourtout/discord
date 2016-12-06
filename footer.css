@@ -5,6 +5,7 @@ body {
 
 footer {
     background: url("https://discordapp.com/assets/530280c4e76a27a6dd43c0ecabb96e7d.png");
+    background-size: 20%;
     padding: 50px 80px;
 }
 
@@ -30,12 +31,61 @@ footer {
    background-color: #3d9c71;
 }
 
-.footer-devices {
-    height: 200px;
-    width: 80%;
+#footer-devices-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.monster {
+  height: 40px;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.monster:hover {
+opacity: 1;
+transform: translateY(-5px);
+}
+
+#footer-devices {
+    height: 80px;
+    width: 90%;
     background: url("https://discordapp.com/assets/488cb1e29a13336481369363cb861f02.png");
-    background-size: contain;
+    background-size: 100%;
     background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+#footer-devices a {
+  opacity: 0.5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#footer-devices a:hover {
+  opacity: 0.9;
+}
+
+#footer-devices a:nth-child(1) {
+  margin-left: 11.7%;
+}
+
+#footer-devices a:nth-child(2) {
+  margin-left: 14.5%;
+}
+
+#footer-devices a:nth-child(3) {
+  margin-left: 6%;
+}
+
+#footer-devices a:nth-child(4) {
+  margin-left: 13%;
+}
+
+#footer-devices a:nth-child(5) {
+  margin-left: 2%;
 }
 
 .footer-index {
