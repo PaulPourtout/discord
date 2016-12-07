@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.impaire {
+    background-color: #EBEBEB;
+}
+
+.paire {
+    background-color: #F3F3F3;
+    justify-content: flex-end;
+}
+
+.main-container {
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    padding: 30px;
+}
+
+.main-text {
+    font-size: 0.9rem;
+    margin: 80px 150px;
+    width: 30%;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #91A2DE;
+    letter-spacing: 0.025em;
+    /*position: relative;*/
+    font-weight: 500;
+}
+
+.main-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-image {
+    width: 600px;
+    right: -110px;
+    border-radius: 5px;
+}
+
+
+/*2e partie*/
+
+#container2 {
+    background: url("https://discordapp.com/assets/61ef80b399106268bbeccc9bca7bfee6.png"), #F3F3F3;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #91A2DE;
+    letter-spacing: 0.025em;
+    position: relative;
+    font-weight: 500;
+}
+
+.main-image1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#main-image1 {
+    left: 170px;
+}
+
+
+/*3epartie*/
+
+.main-text2 {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 80px 150px;
+    width: 35%;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #91A2DE;
+    letter-spacing: 0.025em;
+    position: relative;
+    font-weight: 500;
+}
+
+.main-icone2 {
+    margin-left: -530px;
+    margin-top: 270px;
+    letter-spacing: 1em;
+}
+
+
+
+#main-image2 {
+  width: 280px;
+  position: absolute;
+  right: 100px;
+  top: -198px;
+}
+
+#main-image2-2 {
+    position absolute;
+    z-index: 4;
+    margin-bottom: -200px;
+    margin-left: 450px;
+    margin-top: 175px;
+}

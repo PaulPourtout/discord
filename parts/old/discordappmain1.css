@@ -1,0 +1,38 @@
+#main-section1 {
+    height: 100%;
+}
+
+.main-container1 {
+    display: flex;
+    position: relative;
+    background: url("https://discordapp.com/assets/61ef80b399106268bbeccc9bca7bfee6.png"), #F3F3F3;
+    top:25px;
+    background-repeat: no-repeat;
+    padding: 30px;
+    justify-content: flex-end;
+}
+
+.main-text1 {
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 80px 150px;
+    width: 35%;
+    right: -110px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #91A2DE;
+    letter-spacing: 0.025em;
+    position: relative;
+    font-weight: 500;
+}
+
+.main-image1 {
+    position: absolute;
+    left: 50px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+
+}
