@@ -216,7 +216,10 @@ header {
     height: 200px;
 }
 
-.computerback4 {
+
+/* CAISSE ANIMEE */
+
+#computerback4 {
     position: absolute;
     left: 35%;
     transform: translateX(-50%);
@@ -225,7 +228,33 @@ header {
     height: 90px;
 }
 
-.computerback4:hover {
+.shakeIt {
+    animation: shakeIt 0.5s;
+}
+
+@keyframes shakeIt {
+    0%, 100% {
+        transform: translate(-50%, 0px);
+    }
+    20%, 60% {
+        transform: translate(-53%, 3px);
+    }
+    40%, 80% {
+        transform: translate(-47%, 0px);
+    }
+    60% {
+        transform: translate(-53%, -5px);
+    }
+    80% {
+        transform: translate(-47%, -2px);
+    }
+}
+
+
+/* OLD ANIMATION */
+
+
+/*#computerback4:hover {
     animation: movein 2s;
 }
 
@@ -236,6 +265,56 @@ header {
     50% {
         left: 40%;
     }
+}*/
+
+#spawnerbox {
+    position: absolute;
+    left: 35%;
+    transform: translateX(-50%);
+    bottom: 160px;
+    z-index: 2;
+}
+
+.spawnerboxAnimation {
+    animation: spawn 8s linear;
+}
+
+@keyframes spawn {
+    0%, 5% {
+        transform: translate(-50%, 0%);
+    }
+    20% {
+        transform: translate(-50%, -76%);
+        left: 35%;
+    }
+    25% {
+      transform: translate(-50%, -76%);
+    }
+
+    33% {
+    transform: translate(-50%, -19%);
+    }
+
+    39% {
+        transform: translate(-50%, -80%);
+    }
+
+    45% {
+        transform: translate(-50%, -19%);
+    }
+
+    60%, 80% {
+        transform: translate(-50%, -100%);
+    }
+
+    100% {
+        transform: translate(-50%, 0%);
+        left: 105%;
+    }
+}
+
+#spawnerbox img {
+    width: 70px;
 }
 
 .shadow {
@@ -476,7 +555,7 @@ header {
 }
 
 .title {
-  margin-top: 0;
+    margin-top: 0;
     font-size: 1.8rem;
     color: #91A2DE;
     line-height: 2rem;
