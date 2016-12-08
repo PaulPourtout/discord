@@ -276,7 +276,7 @@ header {
 }
 
 .spawnerboxAnimation {
-    animation: spawn 8s linear;
+    animation: spawn 8s ease-out;
 }
 
 @keyframes spawn {
@@ -287,28 +287,64 @@ header {
         transform: translate(-50%, -76%);
         left: 35%;
     }
-    25% {
+    23% {
       transform: translate(-50%, -76%);
     }
 
-    33% {
+    27% {
     transform: translate(-50%, -19%);
     }
 
-    39% {
-        transform: translate(-50%, -80%);
+    29% {
+    transform: translate(-50%, -25%);
     }
 
-    45% {
+    32% {
+    transform: translate(-50%, -19%);
+    }
+
+    33% {
+    transform: translate(-50%, -22%);
+    }
+
+    34% {
+    transform: translate(-50%, -19%);
+    }
+
+    50% {
         transform: translate(-50%, -19%);
     }
 
-    60%, 80% {
-        transform: translate(-50%, -100%);
+    55% {
+        transform: translate(-50%, 78%);
+    }
+
+    58% {
+        transform: translate(-50%, 74%);
+    }
+
+    61% {
+        transform: translate(-50%, 78%);
+    }
+
+    63% {
+        transform: translate(-50%, 76%);
+    }
+
+    64% {
+        transform: translate(-50%, 78%);
+    }
+
+    70% {
+        transform: translate(-50%, 78%);
+    }
+
+    75% {
+        transform: translate(-50%, 210%);
     }
 
     100% {
-        transform: translate(-50%, 0%);
+        transform: translate(-50%, 210%);
         left: 105%;
     }
 }

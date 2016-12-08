@@ -17,18 +17,14 @@ boutonEnter.onclick = function() {
 
 // AU CLIQUE LA CAISSE MARIO S'ANIME ET UN OBJET EN SORT
 caisseMario.onclick = function() {
+    // RETRAIT DES CLASS D'ANIMATION
     itemMario.classList.remove('spawnerboxAnimation');
     caisseMario.classList.remove('shakeIt');
 
+    // RESET ANIMATION
     void caisseMario.offsetWidth;
     void itemMario.offsetWidth;
 
     caisseMario.classList.add('shakeIt');
     itemMario.classList.add('spawnerboxAnimation');
-    // setTimeout(removeClassMario(), 7000);
-
-}
-
-function removeClassMario() {
-
 }
